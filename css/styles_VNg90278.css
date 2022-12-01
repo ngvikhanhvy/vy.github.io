@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html{
+    background-color: #d1cfe2;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li{
+    line-height: 2em;
+    text-align: center;
+    width: 20%;
+    float: left;
+    overflow: auto;
+}
+
+nav > ul > li >a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+nav > ul > li > a:hover{
+    background-color: #d4afb9;
+    color: white;
+}
+
+footer, article{
+    clear: both;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+thead{
+    background-color: #d4afb9;
+}
+
+table > caption{
+    color: red;
+}
+
+body #package{
+    background-image: url('../images/sales.jpg');
+    height: 350px;
+    background-size: 100% 100%;
+}
+
+body #top{
+    background-image: url(../images/plane.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2{
+    position: relative;
+    top: 80px;
+    left: 400px;
+    color: red;
+}
+
+h1{
+    position: relative;
+    top: 80px;
+    left: 400px;
+    color: whitesmoke;
+}
+
+legend{
+    color: black;
+    background-color: #daeaf6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+fieldset{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+fieldset > div{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+
+fieldset > div > *{
+    flex: 1 1 200px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background-color: #daeaf6;
+    color: black;
+    width: 45%;
+    margin: 2%;
+}
+
+img{
+    width: 95%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+
+img#fox{
+    width: 50%;
+    height: 45%;
+}
+
+td{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0px; 
+}
+
+/*responsive design*/
+@media only screen and (max-width: 480px){
+    div[class^="sec_"]{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 481px){
+    div[class^="sec_"]{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 769px){
+    div[class^="sec_"]{
+        width: 100%;
+    }
+}

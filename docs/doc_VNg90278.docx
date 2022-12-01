@@ -1,0 +1,108 @@
+• Introduction: 
+	Having spent mostly all my life in Vietnam before moving to Canada for school, I was fortunate enough to travel across the country to see how vast and eye-opening the Vietnamese landscape has to offer. With its fascinating history, gorgeous landscapes, tasty food, and vibrant energy, Vietnam will awaken all your senses and pull you in from all angles.
+
+	I am interested in making this project because travelling has always been a strong passion of mine. One of my bucket lists is to travel the world and experience all the amazing food they have in each country.  My main inspiration in creating such a website is to introduce Vietnam to foreign friends around the world, in the hopes of boosting the Vietnamese economy, creating more jobs for the locals through tourism and hopefully improve the infrastructure of the country with the increasing number of tourists. I acknowledge to make this happen, a lot of time and effort has to be invested from the locals and the government. 
+
+When I was planning for my trip to travel across Vietnam, I found it incredibly hard to find information about the destinations I wanted to visit on Vietnamese travel websites. Most travel websites to only allow booking and access for trips to famous and densely populated cities, such as the capital – Ha Noi or Ho Chi Minh City. I found this incredibly frustrating because there are so many potential travel locations not being easily accessible through travel tours. 
+
+My main goal for creating the website in this project is to replicate a travel company who organizes trips to not just popular but also remote locations of Vietnam. My website is nowhere near perfect, it has a lot of room for improvements – however, it is a good starting point which I can use to attract my friends to choose Vietnam for their next travel destinations.
+
+• Website layout: 
+The technology I used for my layout mostly includes left-floating for navigation menus and relative positioning for headers so they are placed nicely on top of the background images. Here is the wireframe for my project:
+•	Page 1:
+HTML
+	head:	meta
+		    title   
+
+	body:	header:		h1
+				        nav
+
+		    article:	h3
+				        sec_1
+                        sec_2
+                        sec_3
+                        sec_4
+                        p
+		    footer
+
+•	Page 2:
+HTML
+	head:	meta
+		    title   
+
+	body:	header :	h2
+				        nav
+
+		article:		div:			thead
+							            tbody
+							            tfoot
+                        p
+		footer
+
+•	Page 3
+HTML
+	head:	meta
+		    title   
+
+	body:	header:		h3
+				        nav
+
+		article:		p
+				        form:			fieldset_1
+                                        fieldset_2
+                                        fieldset_3
+				        div (for buttons)
+		footer
+
+• Website organization: 
+	My project includes 3 pages imitating a travel agency, suggesting various travel locations in Vietnam.
+	In the first page, I added a background image at the top of the page, while using position relative for the header “Explore what Vietnam has to offer in 2023”. By organising the background image and header this way, I find it easier to catch the user’s attention and create a hook for them to look at the rest of my project. This page includes a navigation button, opening other pages in another tab – which allows convenience for the user since they don’t have to go back and forth to look at my website. The rest of the page are some text paragraphs and images I embedded to explain why the travel destination is attractive and images are used to increase the aesthetics of the page. For content about Ha Long Bay, I added a youtube video so the user can better imagine what Ha Long Bay looks like, without being restricted to solely images I had on my website. For content about Sapa, I embedded the sounds of birds chirping – since it is such a peaceful village surrounded by nature. There is also an option to go back to the top of the page after the user has finished scrolling the page.
+	In the second page, the screen displays a table of package deals the travel agency offers for their Black-Friday sale. Here I displayed a table with 5 columns and 6 rows to show how much discount the user will get based on the time they book the trip. In the bottom half of this page, I used Javascript to create a dynamic content where images from the first page will be displayed and changed frequently. By doing this, the user will be reminded of the amazing scenery and incentivised to book their trip.
+	In the last page, there is a form that the user can fill out as the first step of their booking. After the user has filled out this form, the travel agency will reach out to the user to match them with a trip. There are several types of information the user fills out in this page, such as personal information, what type of flight and accommodation they prefer and information about their trip (depart from, going to, date and time of checkin…) Mostly all information here is validated using javascript – if information type/phone number is missing or mismatched, or if the check-out date is before the check-in date – a warning message will be displayed. There is also a button to submit data and clear the form. 
+	In the last page, it is important to notice there are multiple types of data the user needs to enter (name, phone number, email, text, number, radio buttons, check boxes dates…).
+•	The highlight (bragging) part: 
+In this project, I am most proud of the javascript content displaying changing images on Page 2. Learning this technology took a lot of time and a lot of trials and errors for me to display it correctly. I had to use multiple learning websites (developer.mozilla and w3school) to understand how the switch statement works. I also consulted some youtube videos to see how the switch function is applied. 
+I am also very proud of how I was able to validate check-out time is supposed to be later than check-in time. Not only did I validate missing check-in/check-out date, I was also able to display a warning message if the user inputs date orders incorrectly. This is particularly useful in reducing the hassle for the travel company – since they won’t have to discuss back and forth with the customer about their travel dates.
+•	Link to the GitHub repositories and GitHub pages of your published website 
+
+•	Content declaration (for text and image sources)
+Airplane: 
+Photo by Eva Darron on Unsplash (https://unsplash.com/photos/oCdVtGFeDC0)
+
+Ha Long bay: 
+Video by National Geographic on Youtube (https://www.youtube.com/watch?v=SpOWgms2uto)
+Article by UNESCO – World Heritage Convention (https://whc.unesco.org/en/list/672/ )
+Photo by Liz Dodd on National Geographic (https://www.nationalgeographic.co.uk/travel/2020/01/mountains-islands-and-caves-exploring-highlights-ha-long-bay)
+Article on Wiki (https://en.wikivoyage.org/wiki/Ha_Long_Bay)
+Photo by Marina Lobato on Unsplash (https://unsplash.com/photos/kG7pOXbBfNs)
+Photo from Halong Bay (https://www.visithalongbay.com/caves/sung-sot-cave-biggest-cave-halong-bay.html)
+
+Sapa:
+Photo by Krisztian Tabori on Unsplash (https://unsplash.com/photos/9r2yeRccyls)
+Audio from Chosic (https://www.chosic.com/download-audio/27950/)
+Photo from Vietnam Travel (https://vietnam.travel/sites/default/files/inline-images/Fansipan%20cable%20car_1.jpg)
+Photo by Kyle Petzer on Unsplash (https://unsplash.com/photos/3FjR_2bUXFc)
+
+Hoi An:
+Photo by Hieu Tran on Unsplash (https://unsplash.com/photos/KpJ1_47WQPc)
+Article by UNESCO – World Heritage Convention (https://whc.unesco.org/en/list/948/)
+Photo by Tam Nguyen on Unsplash (https://unsplash.com/photos/ZxtAqCcUmMU)
+Photo by Daniel Lee on Unsplash (https://unsplash.com/photos/ozQi6EanRsA)
+
+Ly Son Island:
+Photo by gau xam on Unsplash (https://unsplash.com/photos/SNeJR56CrkI)
+Photo by khamphalyson.vn (https://www.vietnamonline.com/attraction/ly-son-island.html)
+Article by Say Hello Vietnam(https://sayhellovietnam.com/ly-son-travel-to-vo-gate-and-4-famous-check-in-points/)
+Photo by Geoff Oliver on Unsplash (https://unsplash.com/photos/kAcLm32oIcg)
+Aricle by LiveStrong.com (https://www.livestrong.com/article/74835-health-benefits-black-garlic/)
+
+Sale:
+Photo by Claudio Schwarz on Unsplash (https://unsplash.com/photos/zKT64MtVKQ0)
+
+• References.
+https://www.w3schools.com/tags/att_input_type_number.asp#:~:text=The%20%3Cinput%20type%3D%22number,specifies%20the%20maximum%20value%20allowed
+
+Javascript:
+https://www.w3schools.com/js/js_switch.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+https://www.youtube.com/watch?v=xDY1TTM9sGs

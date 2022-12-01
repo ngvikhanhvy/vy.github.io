@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Vy Nguyen">
+        <meta name="viewport" content="width=device-width">
+        <title>Contact Us!</title>
+        <link href="css/styles_VNg90278.css" rel="stylesheet">
+        <script src="script/script_VNg90278.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3>Fill out this form</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="page2_VNg90278.html" target="_blank">Package</a></li>
+                    <li><a href="page3_VNg90278.html" target="_blank">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <p>This form helps us better match you with a travel package! Please fill out information below and we will be in touch soon.</p>
+            <form method="get" action="./page3_VNg90278.html" enctype="application/x-www-form-urlencoded">
+                <fieldset id="field1">
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="fullName">Full Name</label> 
+                    <input type="text" name="fullName" id="fullName" size="30" maxlength="50" required>
+                </div>
+                <div>
+                    <label for="emailAddress">Email Address</label> 
+                    <input type="email" name="emailAddress" id="emailAddress" placeholder="youremail@gmail.com" required>
+                </div>
+                <div>
+                    <label for="phoneNumber">Phone Number</label> 
+                    <input type="tel" name="phoneNumber" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx"
+                    required>
+                </div>
+                </fieldset>
+
+                <fieldset id="field2">
+                <legend>Flight & Accommodation</legend>
+                <div>
+                    <label for="flight">Flight Type</label>
+                    <span>
+                        <input type="radio" name="flight" id="flight" value="one-way">One-way
+                        <input type="radio" name="flight" id="flight1" value="round-trip">Round-trip
+                        <input type="radio" name="flight" id="flight2" value="multi-city">Multi-city
+                    </span>                        
+                </div>
+                <div>
+                    <label for="cabinClass">Cabin Class</label>
+                    <span>
+                        <input type="checkbox" name="class" id="class1" value="economy">Economy <br>
+                        <input type="checkbox" name="class" id="class2" value="business">Business Class <br>
+                        <input type="checkbox" name="class" id="class3" value="first">First Class <br>
+
+                    </span>
+                </div>
+                <div>
+                    <label for="travellers">Travellers</label>
+                    <input type="number" name="travellers" id="travellers" min="1" max="10" step="1">
+                </div>
+                </fieldset>
+                
+
+                <fieldset id="field3">
+                    <legend>Trip Information</legend>
+                    <div>
+                        <label for="leaving">Leaving From</label>
+                        <select id="select_leaving">
+                            <option value="">Please choose where you are leaving from</option>
+                            <option value="vancouver">YVR-Vancouver International Airport</option>
+                            <option value="calgary">YYC-Calgary International Airport</option>
+                            <option value="edmonton">YEG-Edmonton International Airport</option>
+                            <option value="toronto">YYZ-Pearson International Airport</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="going">Going To</label>
+                        <select id="select_going">
+                            <option value="">Please choose where you are going to</option>
+                            <option value="halong">Ha Long Bay</option>
+                            <option value="sapa">Sapa</option>
+                            <option value="hoian">Hoi An</option>
+                            <option value="lyson">Ly Son Island</option>
+                        </select>
+                    </div>
+                    <div>
+                            <label for="checkIn">Check-in</label>
+                            <input type="date" name="checkIn" id="checkIn" required>
+                    </div>
+                    <div>
+                            <label for="checkOut">Check-out</label>
+                            <input type="date" name="checkOut" id="checkOut" required>
+                    </div>
+                    <div> 
+                            <label for="info">Additional Info</label>
+                        <textarea name="info" rows="5" col="50">
+                        Please provide any additional information we need to know to match you with a great travel deal
+                        </textarea>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <input type="submit" name="submit" value="Submit Data" onclick="return runValidate(this.form)">
+                    <input type="reset" name="reset" value="Clear Data">
+                </div>
+            </form>
+        </article>
+        <footer>
+            <hr>
+            <em>
+            Copyright &copy; Vy Nguyen - CSIS 1280
+            </em>
+        </footer>
+    </body>
+</html>
